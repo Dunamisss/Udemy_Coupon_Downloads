@@ -1,64 +1,61 @@
-# Udemy Coupon Fetcher
+# Coupon Scraper
 
-**Note:** This tool is for educational purposes only. Any misuse of this tool is not the responsibility of the author.
+A simple Python script to scrape and save coupons from various platforms.
 
-## Description
+## About
 
-This script fetches Udemy coupons from various online sites and saves them into a text file named `coupons.txt` in the specified directory.
+This script is designed to fetch coupons from different platforms like Udemy, Eduonix, Discudemy, and TutorialBar. It saves the coupons into a text file for easy access.
 
 ## Features
 
-- Fetches 100 Udemy coupons. Although alot of the older ones will of no doubt run out.
-- Saves coupon links and course titles.
-- Simple and easy to use.
+- Fetches coupons from multiple platforms.
+- Saves coupons to a text file.
+- User-friendly menu interface.
+- Logging for tracking script activities.
 
-## Installation
+## How to Use
 
-1. Ensure you have Python 3.x installed.
-2. Install the required libraries:
-
-   ```bash
-   pip install requests beautifulsoup4
-   ```
-
-## Usage
-
-1. Clone the repository:
+1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Dunamisss/udemy-coupon-fetcher.git
+   git clone https://github.com/dunamisss/coupon-scraper.git
    ```
 
-2. Navigate to the directory:
+2. **Navigate to the Directory**
 
    ```bash
-   cd udemy-coupon-fetcher
+   cd coupon-scraper
    ```
 
-3. Run the script:
+3. **Run the Script**
+
+   Make sure you have Python and the required libraries installed. Then run:
 
    ```bash
-   python coupon_fetcher.py
+   python main.py
    ```
 
-4. Check the `coupons.txt` file in the specified directory for the fetched coupons.
+4. **Follow the Menu**
 
-## Contributing
+   Select your preferred platform and choose the courses you're interested in. The coupons will be saved in the specified file.
 
-If you want to add more sites or improve the script, feel free to contribute by:
+## Support
 
-1. Forking the repository.
-2. Making your changes.
-3. Submitting a pull request.
+If you found this tool helpful, please consider giving it a star ⭐. It would be greatly appreciated!
 
-## Disclaimer
-
-This tool is intended for educational purposes only. The author is not responsible for any misuse or consequences arising from the use of this tool.
+- [Colorama](https://pypi.org/project/colorama/) for text formatting.
+- [Requests](https://pypi.org/project/requests/) for HTTP requests.
+- [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) for web parsing.
+- [Fake UserAgent](https://pypi.org/project/fake-useragent/) for rotating user agents.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
+## Contact
 
-(https://github.com/Dunamisss)
+- GitHub: [@dunamisss](https://github.com/dunamisss)
+
+---
+
+**Note:** This script is for educational purposes only. Please ensure you are complying with the terms of service of the platforms you are scraping.
